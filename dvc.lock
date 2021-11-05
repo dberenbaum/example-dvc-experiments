@@ -23,15 +23,15 @@ stages:
       size: 3614
     params:
       params.yaml:
-        model.conv_units: 16
+        model.conv_units: 128
         train.epochs: 10
     outs:
     - path: logs.csv
-      md5: 7294cd06c92fc62cf95269fe08c78f60
-      size: 861
+      md5: 127c860ef9077e2336a71010cacfc7db
+      size: 865
     - path: metrics.json
-      md5: 0f018ec494e4dccabdf67993c59a56ac
-      size: 55
+      md5: 36e573561c255dd468adf856f767f5dd
+      size: 56
     - path: models/model.h5
-      md5: 9f34952a5203e153c0d0f887d756832a
-      size: 4208304
+      md5: 03bdb13aafe885a80482712922c5d8ee
+      size: 33295584
